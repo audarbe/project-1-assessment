@@ -4,3 +4,52 @@
     padding: 0;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+    width: 50%;
+}
+
+#counter {
+    font-size: 5rem;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+
+#input-container > * {
+    height: 60px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#input-field {
+    border: 5px solid gray;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.button {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    font-size: 2.5rem;
+}
